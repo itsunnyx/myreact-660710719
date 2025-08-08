@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './photo1.jpg';
 import './App.css';
 import Hello from './Hello';
 import JSXExample from './components/JSXExamples';
@@ -10,8 +10,11 @@ function App() {
       <JSXExample></JSXExample>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        {/* <p>
           Edit <code>src/App.js</code> and save to reload.
+        </p> */}
+        <p>
+          malee rak mam mak
         </p>
         <a
           className="App-link"
